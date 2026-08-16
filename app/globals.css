@@ -6,43 +6,43 @@
   --font-body: var(--font-body);
   --font-mono: var(--font-dm-mono);
 
-  --color-background: #faf7f2;
-  --color-foreground: #30251f;
-  --color-muted: #e8d9c8;
-  --color-bordercol: rgba(107, 73, 50, 0.18);
+  --color-background: #f4f7f8;
+  --color-foreground: #18181b;
+  --color-muted: #d4d4d8;
+  --color-bordercol: rgba(39, 39, 42, 0.16);
   --color-panel: #ffffff;
 
-  --color-midnight-black: #30251f;
-  --color-charcoal-brick: #e8d9c8;
-  --color-graphite-gray: #6b4932;
-  --color-burnt-copper: #a96832;
-  --color-caramel: #a96832;
-  --color-warm-cream: #faf7f2;
+  --color-midnight-black: #18181b;
+  --color-charcoal-brick: #d4d4d8;
+  --color-graphite-gray: #52525b;
+  --color-burnt-copper: #009ec8;
+  --color-caramel: #009ec8;
+  --color-warm-cream: #f4f7f8;
 
-  --color-primary-1: #c77417;
-  --color-primary-2: #6b4932;
-  --color-primary-3: #e8d9c8;
-  --color-accent: #a96832;
-  --color-ink-1: #30251f;
-  --color-ink-2: #6b4932;
-  --color-ink-3: #9a806d;
-  --color-blush-1: #faf7f2;
-  --color-blush-2: #e8d9c8;
+  --color-primary-1: #009ec8;
+  --color-primary-2: #007d9f;
+  --color-primary-3: #e4f5f9;
+  --color-accent: #009ec8;
+  --color-ink-1: #18181b;
+  --color-ink-2: #52525b;
+  --color-ink-3: #71717a;
+  --color-blush-1: #f4f7f8;
+  --color-blush-2: #e4f5f9;
   --color-cream-1: #ffffff;
-  --color-steel: rgba(107, 73, 50, 0.18);
+  --color-steel: rgba(39, 39, 42, 0.16);
 
-  --shadow-soft: 0 24px 70px rgba(107, 73, 50, 0.12);
-  --shadow-card: 0 18px 42px rgba(107, 73, 50, 0.1);
-  --shadow-lift: 0 28px 80px rgba(107, 73, 50, 0.16);
+  --shadow-soft: 0 24px 70px rgba(24, 24, 27, 0.12);
+  --shadow-card: 0 18px 42px rgba(24, 24, 27, 0.1);
+  --shadow-lift: 0 28px 80px rgba(24, 24, 27, 0.16);
 }
 
 :root {
-  --midnight-black: #30251f;
-  --charcoal-brick: #e8d9c8;
-  --graphite-gray: #6b4932;
-  --burnt-copper: #a96832;
-  --caramel: #a96832;
-  --warm-cream: #faf7f2;
+  --midnight-black: #18181b;
+  --charcoal-brick: #d4d4d8;
+  --graphite-gray: #52525b;
+  --burnt-copper: #009ec8;
+  --caramel: #009ec8;
+  --warm-cream: #f4f7f8;
 }
 
 @layer base {
@@ -128,7 +128,7 @@
   .atelier-shell {
     min-height: 100vh;
     background:
-      linear-gradient(180deg, rgba(255, 255, 255, 0.54) 0%, rgba(250, 247, 242, 0) 34%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.54) 0%, rgba(244, 247, 248, 0) 34%),
       var(--color-background);
     color: var(--color-foreground);
   }
@@ -186,7 +186,7 @@
   }
 
   .hero-title-accent {
-    color: #eca15d;
+    color: #5ed8f5;
   }
 
   .hero-header-glass {
@@ -211,11 +211,11 @@
     gap: 10px;
     border: 1px solid rgba(255, 255, 255, 0.16);
     border-radius: 999px;
-    background: rgba(139, 77, 23, 0.62);
+    background: rgba(0, 94, 120, 0.62);
     padding: 8px 16px;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.92);
-    font-family: var(--font-heading_2);
+    font-family: var(--font-body);
     font-size: 12px;
     font-weight: 800;
     line-height: 1.2;
@@ -335,7 +335,7 @@
   }
 
   .atelier-panel {
-    border: 1px solid rgba(107, 73, 50, 0.16);
+    border: 1px solid rgba(39, 39, 42, 0.16);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.82);
     box-shadow: var(--shadow-soft);
@@ -357,7 +357,7 @@
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0;
-    box-shadow: 0 16px 34px rgba(169, 104, 50, 0.18);
+    box-shadow: 0 16px 34px rgba(0, 158, 200, 0.2);
     transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
   }
 
@@ -374,7 +374,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    border: 1px solid rgba(107, 73, 50, 0.22);
+    border: 1px solid rgba(39, 39, 42, 0.22);
     border-radius: 7px;
     background: rgba(255, 255, 255, 0.48);
     color: var(--color-foreground);
@@ -401,7 +401,7 @@
     position: absolute;
     inset: 0;
     z-index: 2;
-    background: linear-gradient(180deg, rgba(169, 104, 50, 0.08), transparent);
+    background: linear-gradient(180deg, rgba(0, 158, 200, 0.08), transparent);
     opacity: 0;
     transition: opacity 220ms ease;
     pointer-events: none;
@@ -423,14 +423,14 @@
     justify-content: center;
     border-radius: 999px;
     background: var(--color-primary-1);
-    box-shadow: 0 14px 30px rgba(107, 73, 50, 0.22);
+    box-shadow: 0 14px 30px rgba(0, 75, 96, 0.24);
   }
 
   .whatsapp-wave {
     position: absolute;
     inset: -7px;
     border-radius: inherit;
-    border: 1px solid rgba(169, 104, 50, 0.38);
+    border: 1px solid rgba(0, 158, 200, 0.4);
     animation: whatsapp-wave 2.2s infinite ease-out;
   }
 
@@ -488,7 +488,7 @@
   }
 
   html::-webkit-scrollbar-track {
-    background: #f2ebe1;
+    background: #e4e4e7;
   }
 
   html::-webkit-scrollbar-thumb {

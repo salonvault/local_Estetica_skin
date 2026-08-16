@@ -1,38 +1,37 @@
 import Image from "next/image";
-import { Play, Star } from "lucide-react";
 import Reveal from "./Reveal";
 
 const textReviews = [
   {
-    name: "Mina R.",
-    service: "Signature Facial",
-    image: "/assets/result.jpeg",
-    text: "The facial felt calm and personal, and my skin looked rested without looking overdone. It was exactly the hour I needed.",
+    name: "Patient feedback",
+    service: "Acne Consultation",
+    image: "/assets/new/person1.jpeg",
+    text: "Clear explanations, a considered consultation, and a treatment plan shaped around the patient’s skin concerns.",
   },
   {
-    name: "Sara K.",
-    service: "Brow Sculpting",
-    image: "/assets/service8.jpeg",
-    text: "My brows finally look soft and balanced. The whole appointment felt thoughtful, gentle, and very premium.",
+    name: "Patient feedback",
+    service: "Pigmentation Care",
+    image: "/assets/new/person2.jpeg",
+    text: "Professional guidance, practical aftercare, and realistic expectations throughout the pigmentation-care journey.",
   },
   {
-    name: "Aaliyah W.",
-    service: "Glow Therapy",
-    image: "/assets/facial2.jpeg",
-    text: "I booked glow therapy before a dinner and left looking fresh, not heavy. The aftercare was simple and actually useful.",
+    name: "Patient feedback",
+    service: "Hair Loss Consultation",
+    image: "/assets/new/person4.jpeg",
+    text: "A focused discussion of hair concerns, available options, and the purpose of every recommended step.",
   },
 ];
 
 const imageCards = [
-  { name: "Leila T.", service: "Head & Scalp Ritual", image: "/assets/review1.jpeg" },
-  { name: "Nora M.", service: "Hydration Treatment", image: "/assets/review3.jpeg" },
-  { name: "Maya L.", service: "Hydra Facial", image: "/assets/review4.jpeg" },
-  { name: "Elena P.", service: "Body Treatment", image: "/assets/review2.jpeg" },
+  { name: "Dermotique care", service: "Acne Scar Treatment", image: "/assets/new/review1.jpeg" },
+  { name: "Dermotique care", service: "HydraFacial", image: "/assets/new/review3.jpeg" },
+  { name: "Dermotique care", service: "Melasma Care", image: "/assets/new/review_4.jpeg" },
+  { name: "Dermotique care", service: "Laser Hair Removal", image: "/assets/new/review_2.jpeg" },
 ];
 
 function ReviewCard({ name, service, image, text }: { name: string; service: string; image: string; text: string }) {
   return (
-    <article className="rounded-[8px] border border-[rgba(169,104,50,0.18)] bg-[linear-gradient(135deg,#fff8ef_0%,#f4e6d6_48%,#e8d9c8_100%)] p-5 shadow-[0_14px_34px_rgba(107,73,50,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_48px_rgba(107,73,50,0.14)]">
+    <article className="rounded-[8px] border border-[#009EC8]/18 bg-[linear-gradient(135deg,#ffffff_0%,#eef8fa_48%,#e4f5f9_100%)] p-5 shadow-[0_14px_34px_rgba(24,24,27,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_48px_rgba(24,24,27,0.14)]">
       <div className="flex items-center gap-3">
         <div className="relative h-10 w-10 overflow-hidden rounded-full bg-[var(--color-primary-3)]">
           <Image src={image} alt={`${name} portrait`} fill sizes="40px" className="object-cover" />
@@ -42,28 +41,16 @@ function ReviewCard({ name, service, image, text }: { name: string; service: str
           <p className="mt-0.5 text-[9px] font-bold uppercase tracking-[0.08em] text-[var(--color-primary-1)]">{service}</p>
         </div>
       </div>
-      <div className="mt-5 flex gap-1 text-[var(--color-primary-1)]" aria-hidden="true">
-        {Array.from({ length: 5 }).map((_, index) => (
-          <Star key={index} className="h-3.5 w-3.5 fill-current" />
-        ))}
-      </div>
-      <p className="mt-5 text-[12px] leading-[1.7] text-[var(--color-ink-2)]">&quot;{text}&quot;</p>
+      <p className="mt-5 text-[12px] leading-[1.7] text-[var(--color-ink-2)]">{text}</p>
     </article>
   );
 }
 
 function ImageReviewCard({ name, service, image, tall = false }: { name: string; service: string; image: string; tall?: boolean }) {
   return (
-    <article className={`relative overflow-hidden rounded-[8px] bg-[var(--color-primary-3)] shadow-[0_14px_34px_rgba(107,73,50,0.1)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_52px_rgba(107,73,50,0.18)] ${tall ? "min-h-[410px]" : "min-h-[280px]"}`}>
-      <Image src={image} alt={`${name} Aurelia testimonial result`} fill sizes="(min-width: 1024px) 25vw, 100vw" className="object-cover" />
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(48,37,31,0)_38%,rgba(48,37,31,0.68)_100%)]" />
-      <button
-        type="button"
-        aria-label={`Play ${name} testimonial`}
-        className="absolute left-1/2 top-1/2 grid h-11 w-11 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-white/92 text-[var(--color-primary-1)] shadow-[0_12px_30px_rgba(48,37,31,0.2)]"
-      >
-        <Play className="ml-0.5 h-4 w-4 fill-current" />
-      </button>
+    <article className={`relative overflow-hidden rounded-[8px] bg-[var(--color-primary-3)] shadow-[0_14px_34px_rgba(24,24,27,0.1)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_52px_rgba(24,24,27,0.18)] ${tall ? "min-h-[410px]" : "min-h-[280px]"}`}>
+      <Image src={image} alt={`${service} patient story at Dermotique`} fill sizes="(min-width: 1024px) 25vw, 100vw" className="object-cover" />
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(24,24,27,0)_38%,rgba(9,9,11,0.7)_100%)]" />
       <div className="absolute bottom-5 left-5 right-5 text-white">
         <p className="text-[14px] font-extrabold">{name}</p>
         <p className="mt-1 text-[9px] font-bold uppercase tracking-[0.08em] text-white/74">
@@ -79,17 +66,19 @@ export default function TestimonialsSection() {
     <section id="testimonials" className="bg-[var(--warm-cream)] py-14 text-[var(--color-foreground)] lg:py-20">
       <div className="container">
         <div className="mx-auto mb-9 max-w-[760px] text-center">
-          <p className="eyebrow">Reviews</p>
+          <p className="eyebrow">Patient perspectives</p>
           <div className="mt-3">
             <Reveal>
               <h2 className="heading-h2 mx-auto max-w-[660px]">
-                Trusted by women who wanted{" "}
+                Care for Gujranwala patients seeking{" "}
                 <span className="inline-block rounded-[7px] bg-[var(--color-primary-1)] px-2 text-white">
-                  personal care
+                  clearer guidance
                 </span>
                 .
               </h2>
             </Reveal>
+            <p className="mx-auto mt-4 max-w-[580px] text-[12px] leading-[1.7] text-[var(--color-ink-2)]">Explore the concerns patients commonly bring to Dermotique, then open the latest public review results for first-hand feedback.</p>
+            <a href="https://www.google.com/search?q=Dermotique+Skin+and+Laser+Clinic+Gujranwala+reviews" target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex rounded-full border border-[#009EC8]/30 bg-white px-5 py-2 text-[12px] font-bold text-[#007D9F] transition hover:bg-[#009EC8] hover:text-white">View public reviews</a>
             
           </div>
         </div>
