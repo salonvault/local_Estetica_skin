@@ -15,19 +15,22 @@ import WhatsAppFloat from "@/components/Layout/WhatsAppFloat"
 const clinicSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalClinic",
-  name: "Dermotique Skin & Laser Clinic",
-  description: "Dermatologist-led skin, hair, laser, and aesthetic treatments in Gujranwala.",
-  image: "/assets/logo.png",
-  telephone: "+92 321 4089006",
+  name: "Estetica Skin & Laser Gujranwala",
+  description: "Dermatologist-led skin, hair, laser, facial, and aesthetic treatments in Satellite Town, Gujranwala.",
+  image: "/assets/og-image.png",
+  telephone: "+92 311 1133023",
   medicalSpecialty: "Dermatology",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Hospital Road, Highway Officers Colony, Civil Lines",
+    streetAddress: "22, Block A, Satellite Town",
     addressLocality: "Gujranwala",
     addressRegion: "Punjab",
     addressCountry: "PK",
   },
-  sameAs: ["https://www.instagram.com/dermotique_skin_laser_centre/?hl=en"],
+  sameAs: [
+    "https://www.instagram.com/estetica.pakistan_gujranwala/?hl=en",
+    "https://www.google.com/maps/place/Estetica+Skin+%26+Laser+Gujranwala/data=!4m2!3m1!1s0x0:0xc61cb9dd2020f450",
+  ],
   availableService: [
     "Dermatology consultation",
     "Acne and acne scar treatment",

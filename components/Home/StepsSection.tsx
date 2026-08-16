@@ -63,7 +63,7 @@ export default function StepsSection() {
                       {step.heading}
                     </h3>
                   </div>
-                  <span className="hidden font-heading text-[68px] font-semibold leading-none text-[#009EC8]/14 sm:block">
+                  <span className="hidden font-heading text-[68px] font-semibold leading-none text-[#082A2E]/14 sm:block">
                     {step.number}
                   </span>
                 </div>
@@ -84,7 +84,7 @@ export default function StepsSection() {
               <Image
                 src="/assets/new/happy.jpeg"
                 quality={100}
-                alt="Patient receiving a professional skin treatment at Dermotique"
+                alt="Patient receiving a professional skin treatment at Estetica"
                 fill
                 sizes="(min-width: 1024px) 45vw, 100vw"
                 className="object-cover"
@@ -92,7 +92,7 @@ export default function StepsSection() {
               />
               <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(24,24,27,0.02)_0%,rgba(9,9,11,0.62)_100%)]" />
               <div className="absolute bottom-6 left-6 right-6 text-white">
-                <p className="text-[10px] font-extrabold uppercase tracking-[0.08em] text-white/78">The Dermotique care journey</p>
+                <p className="text-[10px] font-extrabold uppercase tracking-[0.08em] text-white/78">The Estetica care journey</p>
                 <h2 className="mt-3 max-w-[420px] font-heading text-[clamp(38px,4vw,62px)] font-semibold leading-[0.96]">
                   From first consultation to thoughtful follow-up.
                 </h2>

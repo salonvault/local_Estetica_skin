@@ -9,7 +9,7 @@ const pathways = [
   {
     title: "HydraFacial & Peels",
     image: "/assets/new/care2.jpeg",
-    alt: "Professional facial and peel treatment at Dermotique",
+    alt: "Professional facial and peel treatment at Estetica",
   },
   {
     title: "Targeted Laser Treatments",

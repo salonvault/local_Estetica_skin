@@ -47,7 +47,7 @@ export default function ExperienceSection() {
                 <span className="inline-block rounded-[7px] bg-[var(--color-primary-1)] px-2 text-white">
                   treatment progress
                 </span>{" "}
-                with Dermotique.
+                with Estetica.
               </h2>
             </Reveal>
             <p className="para-p3 mt-4 max-w-[520px]">

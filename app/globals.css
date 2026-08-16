@@ -15,19 +15,19 @@
   --color-midnight-black: #18181b;
   --color-charcoal-brick: #d4d4d8;
   --color-graphite-gray: #52525b;
-  --color-burnt-copper: #009ec8;
-  --color-caramel: #009ec8;
+  --color-burnt-copper: #082a2e;
+  --color-caramel: #0e4a4f;
   --color-warm-cream: #f4f7f8;
 
-  --color-primary-1: #009ec8;
-  --color-primary-2: #007d9f;
-  --color-primary-3: #e4f5f9;
-  --color-accent: #009ec8;
+  --color-primary-1: #082a2e;
+  --color-primary-2: #0e4a4f;
+  --color-primary-3: #e5efed;
+  --color-accent: #082a2e;
   --color-ink-1: #18181b;
   --color-ink-2: #52525b;
   --color-ink-3: #71717a;
   --color-blush-1: #f4f7f8;
-  --color-blush-2: #e4f5f9;
+  --color-blush-2: #e5efed;
   --color-cream-1: #ffffff;
   --color-steel: rgba(39, 39, 42, 0.16);
 
@@ -40,8 +40,8 @@
   --midnight-black: #18181b;
   --charcoal-brick: #d4d4d8;
   --graphite-gray: #52525b;
-  --burnt-copper: #009ec8;
-  --caramel: #009ec8;
+  --burnt-copper: #082a2e;
+  --caramel: #0e4a4f;
   --warm-cream: #f4f7f8;
 }
 
@@ -186,7 +186,7 @@
   }
 
   .hero-title-accent {
-    color: #5ed8f5;
+    color: #b8d5c8;
   }
 
   .hero-header-glass {
@@ -211,7 +211,7 @@
     gap: 10px;
     border: 1px solid rgba(255, 255, 255, 0.16);
     border-radius: 999px;
-    background: rgba(0, 94, 120, 0.62);
+    background: rgba(8, 42, 46, 0.72);
     padding: 8px 16px;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.92);
@@ -357,7 +357,7 @@
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0;
-    box-shadow: 0 16px 34px rgba(0, 158, 200, 0.2);
+    box-shadow: 0 16px 34px rgba(8, 42, 46, 0.24);
     transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
   }
 
@@ -401,7 +401,7 @@
     position: absolute;
     inset: 0;
     z-index: 2;
-    background: linear-gradient(180deg, rgba(0, 158, 200, 0.08), transparent);
+    background: linear-gradient(180deg, rgba(8, 42, 46, 0.08), transparent);
     opacity: 0;
     transition: opacity 220ms ease;
     pointer-events: none;
@@ -423,14 +423,14 @@
     justify-content: center;
     border-radius: 999px;
     background: var(--color-primary-1);
-    box-shadow: 0 14px 30px rgba(0, 75, 96, 0.24);
+    box-shadow: 0 14px 30px rgba(8, 42, 46, 0.28);
   }
 
   .whatsapp-wave {
     position: absolute;
     inset: -7px;
     border-radius: inherit;
-    border: 1px solid rgba(0, 158, 200, 0.4);
+    border: 1px solid rgba(8, 42, 46, 0.4);
     animation: whatsapp-wave 2.2s infinite ease-out;
   }
 

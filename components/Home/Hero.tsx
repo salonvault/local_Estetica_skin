@@ -10,7 +10,7 @@ function MiniImage() {
     <div className="relative h-[104px] w-[104px] shrink-0 overflow-hidden rounded-[14px] bg-white/40 shadow-[inset_0_1px_0_rgba(255,255,255,0.42)] md:h-[118px] md:w-[118px]">
       <Image
         src="/assets/new/hydra_facial.png"
-        alt="Clinical facial treatment at Dermotique in Gujranwala"
+        alt="Clinical facial treatment at Estetica in Gujranwala"
         fill
         sizes="168px"
         className="object-cover"
@@ -23,7 +23,7 @@ function MiniImage() {
 
 function ArrowBadge() {
   return (
-    <span className="hero-cta-icon bg-white text-[#009EC8]">
+    <span className="hero-cta-icon bg-white text-[#082A2E]">
       <ArrowUpRight className="h-4.5 w-4.5" strokeWidth={2.3} />
     </span>
   );
@@ -71,18 +71,18 @@ export default function Hero() {
               <span className="hero-title-accent block">Made Personal.</span>
             </h1>
 
-            <div className="mt-5 flex max-w-[410px] items-center gap-4 text-[#5ED8F5]/74">
+            <div className="mt-5 flex max-w-[410px] items-center gap-4 text-[#B8D5C8]/74">
               <span className="h-px flex-1 bg-current" />
               <Flower2 className="h-4 w-4 shrink-0" strokeWidth={1.7} />
               <span className="h-px flex-1 bg-current" />
             </div>
 
             <p className="hero-copy mt-6">
-              Skin, hair, laser, and aesthetic treatments guided by qualified doctors at Dermotique Skin &amp; Laser Clinic in Civil Lines, Gujranwala.
+              Dermatology, laser, facial, hair, and aesthetic treatments with personalised plans at Estetica in Satellite Town, Gujranwala.
             </p>
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-              <a href="https://wa.me/923214089006" className="hero-cta bg-[#009EC8] text-white shadow-[0_18px_38px_rgba(0,78,100,0.28)] transition hover:bg-[#007D9F]">
+              <a href="https://wa.me/923111133023" className="hero-cta bg-[#082A2E] text-white shadow-[0_18px_38px_rgba(8,42,46,0.32)] transition hover:bg-[#0E4A4F]">
                 Book Appointment
                 <ArrowBadge />
               </a>
@@ -108,7 +108,7 @@ export default function Hero() {
             </ScrollZoom>
           </div>
 
-          <div className="relative z-10 mt-[-46px] flex items-center gap-3 rounded-[14px] border border-white/16 bg-[#006E8B]/64 p-4 shadow-[0_22px_54px_rgba(0,35,46,0.28)] backdrop-blur-xl md:max-w-[520px] lg:hidden">
+          <div className="relative z-10 mt-[-46px] flex items-center gap-3 rounded-[14px] border border-white/16 bg-[#082A2E]/72 p-4 shadow-[0_22px_54px_rgba(4,20,22,0.32)] backdrop-blur-xl md:max-w-[520px] lg:hidden">
             <MiniImage />
             <div>
               <p className="offer-title text-white">Consult First</p>

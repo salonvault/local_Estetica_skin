@@ -24,8 +24,8 @@ export default function ExpertiseStripSection() {
             From persistent acne and pigmentation to hair loss, laser care, and aesthetic concerns, every plan begins with a focused consultation at our Gujranwala clinic.
           </p>
           <a
-            href="https://wa.me/923214089006"
-            className="mt-4 inline-flex min-h-10 items-center justify-center gap-2 rounded-full bg-[var(--color-primary-1)] py-1 pl-5 pr-1 text-[12px] font-bold text-white shadow-[0_14px_30px_rgba(0,158,200,0.2)] transition hover:bg-[var(--color-primary-2)]"
+            href="https://wa.me/923111133023"
+            className="mt-4 inline-flex min-h-10 items-center justify-center gap-2 rounded-full bg-[var(--color-primary-1)] py-1 pl-5 pr-1 text-[12px] font-bold text-white shadow-[0_14px_30px_rgba(8,42,46,0.24)] transition hover:bg-[var(--color-primary-2)]"
           >
             Book Appointment
             <span className="grid h-8 w-8 place-items-center rounded-full bg-white text-[var(--color-primary-1)]">
@@ -34,7 +34,7 @@ export default function ExpertiseStripSection() {
           </a>
         </div>
 
-        <div className="relative mx-auto mt-6 max-w-[1040px] overflow-hidden rounded-[18px] border border-[#009EC8]/25 bg-white p-2 shadow-[0_24px_70px_rgba(24,24,27,0.12)]">
+        <div className="relative mx-auto mt-6 max-w-[1040px] overflow-hidden rounded-[18px] border border-[#082A2E]/25 bg-white p-2 shadow-[0_24px_70px_rgba(24,24,27,0.12)]">
           <ScrollZoom className="absolute inset-0" scale={1.185}>
             <Image
               src="/assets/bg-zink.png"
@@ -51,7 +51,7 @@ export default function ExpertiseStripSection() {
             <ScrollZoom className="absolute inset-0" scale={1.19}>
               <Image
                 src="/assets/new/treatment3.jpeg"
-                alt="Clinical skin treatment at Dermotique"
+                alt="Clinical skin treatment at Estetica"
                 fill
                 sizes="(max-width: 1024px) 100vw, 380px"
                 className="object-cover"
@@ -64,7 +64,7 @@ export default function ExpertiseStripSection() {
             <ScrollZoom className="absolute inset-0" scale={1.12}>
               <Image
                 src="/assets/new/treatment_2.jpeg"
-                alt="Dermatology treatment setting at Dermotique"
+                alt="Dermatology treatment setting at Estetica"
                 fill
                 sizes="(max-width: 1024px) 100vw, 520px"
                 className="object-cover"
@@ -106,7 +106,7 @@ export default function ExpertiseStripSection() {
             <ScrollZoom className="absolute inset-0" scale={1.23}>
               <Image
                 src="/assets/new/treatment4.jpeg"
-                alt="Personalised facial treatment at Dermotique"
+                alt="Personalised facial treatment at Estetica"
                 fill
                 sizes="(max-width: 1024px) 100vw, 560px"
                 className="object-cover"

@@ -1,25 +1,25 @@
 import type { Metadata } from "next";
 
-export const BASE_URL = "https://dermotique.vercel.app";
+export const BASE_URL = "https://estetica-skin.vercel.app";
 
-const title = "Dermotique Skin & Laser Clinic | Dermatologist in Gujranwala";
+const title = "Estetica Skin & Laser Gujranwala | Dermatologist & Aesthetic Clinic";
 const description =
-  "Dermotique Skin & Laser Clinic provides dermatologist-led skin, hair, laser, and aesthetic treatments in Civil Lines, Gujranwala. Call or WhatsApp 0321 4089006.";
-const ogImage = "/assets/og-image.png";
+  "Visit Estetica Skin & Laser in Satellite Town, Gujranwala for dermatologist-led skin, hair, laser, facial, and aesthetic treatments. Call or WhatsApp 0311 1133023.";
 
 export const seoMetadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
     default: title,
-    template: "%s | Dermotique Skin & Laser Clinic",
+    template: "%s | Estetica Skin & Laser Gujranwala",
   },
   description,
-  applicationName: "Dermotique Skin & Laser Clinic",
+  applicationName: "Estetica Skin & Laser Gujranwala",
   generator: "Next.js",
   referrer: "origin-when-cross-origin",
   category: "Dermatology Clinic",
   keywords: [
-    "Dermotique Skin and Laser Clinic Gujranwala",
+    "Estetica Skin and Laser Gujranwala",
+    "Estetica Gujranwala",
     "dermatologist Gujranwala",
     "skin clinic Gujranwala",
     "acne treatment Gujranwala",
@@ -28,9 +28,9 @@ export const seoMetadata: Metadata = {
     "hair PRP Gujranwala",
     "aesthetic clinic Gujranwala",
   ],
-  authors: [{ name: "Dermotique Skin & Laser Clinic" }],
-  creator: "Dermotique Skin & Laser Clinic",
-  publisher: "Dermotique Skin & Laser Clinic",
+  authors: [{ name: "Estetica Skin & Laser Gujranwala" }],
+  creator: "Estetica Skin & Laser Gujranwala",
+  publisher: "Estetica Skin & Laser Gujranwala",
   alternates: {
     canonical: BASE_URL,
   },
@@ -56,22 +56,13 @@ export const seoMetadata: Metadata = {
     type: "website",
     locale: "en_PK",
     url: BASE_URL,
-    siteName: "Dermotique Skin & Laser Clinic",
+    siteName: "Estetica Skin & Laser Gujranwala",
     title,
     description,
-    images: [
-      {
-        url: ogImage,
-        width: 1536,
-        height: 1024,
-        alt: "Dermotique Skin and Laser Clinic in Gujranwala",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
-    images: [ogImage],
   },
 };

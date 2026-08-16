@@ -6,7 +6,7 @@ const details = [
   { icon: Leaf, title: "Evidence-based choices", text: "Recommendations are guided by your diagnosis, skin type, and realistic treatment goals." },
   { icon: HeartHandshake, title: "Care built around you", text: "We listen to your concerns, daily routine, medical history, and comfort before planning care." },
   { icon: ShieldCheck, title: "Clinical hygiene", text: "A clean, professional setting with careful protocols for every consultation and procedure." },
-  { icon: Clock3, title: "Convenient Gujranwala care", text: "Skin, hair, and laser care close to home in Civil Lines, with clear follow-up guidance." },
+  { icon: Clock3, title: "Convenient Gujranwala care", text: "Skin, hair, and laser care close to home in Satellite Town, with clear follow-up guidance." },
 ];
 
 export default function GallerySection() {
@@ -20,7 +20,7 @@ export default function GallerySection() {
           <div className="relative min-h-[520px] overflow-hidden rounded-[8px] border border-zinc-900/14 bg-white shadow-[var(--shadow-lift)]">
             <Image
               src="/assets/new/laser.jpeg"
-              alt="Welcoming treatment space at Dermotique skin and laser clinic"
+              alt="Welcoming treatment space at Estetica skin and laser clinic"
               fill
               sizes="(min-width: 1024px) 52vw, 100vw"
               className="object-cover"
@@ -47,7 +47,7 @@ export default function GallerySection() {
               </h2>
             </Reveal>
             <p className="mt-6 max-w-[560px] text-[15px] leading-[1.85] text-[var(--color-ink-2)]">
-              Dermotique brings dermatology, laser technology, hair care, and considered aesthetic treatments to Gujranwala. We focus on careful assessment, understandable advice, and treatment plans designed around your goals and daily routine.
+              Estetica brings dermatology, laser technology, hair care, professional facials, and considered aesthetic treatments to Gujranwala. We focus on careful assessment, understandable advice, and treatment plans designed around your goals and daily routine.
             </p>
 
             <div className="mt-9 grid gap-3">
@@ -55,7 +55,7 @@ export default function GallerySection() {
                 const Icon = detail.icon;
                 return (
                   <article key={detail.title} className="grid grid-cols-[44px_1fr] gap-4 rounded-[8px] border border-zinc-900/14 bg-white/64 p-4 shadow-[var(--shadow-card)]">
-                    <span className="grid h-11 w-11 place-items-center rounded-full bg-[#009EC8]/10 text-[var(--color-primary-1)]">
+                    <span className="grid h-11 w-11 place-items-center rounded-full bg-[#082A2E]/10 text-[var(--color-primary-1)]">
                       <Icon className="h-5 w-5" />
                     </span>
                     <div>

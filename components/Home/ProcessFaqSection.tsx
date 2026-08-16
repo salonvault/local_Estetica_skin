@@ -15,12 +15,12 @@ const items = [
   {
     step: "3",
     title: "Can I come for acne, pigmentation, or hair loss?",
-    text: "Yes. Dermotique provides consultation-led care for common skin, scalp, hair, laser, and aesthetic concerns, with treatment selected after assessment.",
+    text: "Yes. Estetica provides consultation-led care for common skin, scalp, hair, laser, facial, and aesthetic concerns, with treatment selected after assessment.",
   },
   {
     step: "4",
-    title: "Where is Dermotique located?",
-    text: "The Gujranwala clinic is on Hospital Road near Gondal Medical Complex in Civil Lines. For directions or an appointment, call or WhatsApp 0321 4089006.",
+    title: "Where is Estetica located?",
+    text: "Estetica Gujranwala is at 22, Block A, Satellite Town. For directions or an appointment, call or WhatsApp 0311 1133023.",
   },
 ];
 
@@ -38,11 +38,11 @@ export default function ProcessFaqSection() {
                   <span className="inline-block rounded-[7px] bg-[var(--color-primary-1)] px-2 text-white">
                     before you book
                   </span>{" "}
-                  at Dermotique.
+                  at Estetica.
                 </h2>
               </Reveal>
               <a
-                href="https://wa.me/923214089006"
+                href="https://wa.me/923111133023"
                 className="mt-8 inline-flex min-h-11 items-center justify-center gap-2 rounded-[7px] bg-[var(--color-primary-1)] px-5 text-[13px] font-bold text-[var(--warm-cream)] transition hover:bg-[var(--color-primary-2)]"
               >
                 Book a Consultation

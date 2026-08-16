@@ -1,7 +1,6 @@
 "use client";
 
 import { ArrowUpRight, Menu } from "lucide-react";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
@@ -45,10 +44,10 @@ export default function Header() {
       >
         <a
           href="#"
-          aria-label="Dermotique Skin and Laser Clinic home"
-          className="relative block h-11 w-[106px] overflow-hidden rounded-full"
+          aria-label="Estetica Skin and Laser Gujranwala home"
+          className={`brand-logo transition-colors ${pastHero ? "text-[#082A2E]" : "text-white"}`}
         >
-          <Image src="/assets/logo-2.png" alt="Dermotique Skin and Laser Clinic" fill sizes="106px" className="object-contain" priority />
+          Estetica
         </a>
 
         <nav
@@ -62,9 +61,9 @@ export default function Header() {
               href={item.href}
               className={`nav-label flex h-7 items-center rounded-full px-4 transition ${
                 index === 0
-                  ? "bg-[#009EC8] text-white shadow-[0_12px_28px_rgba(0,78,100,0.2)]"
+                  ? "bg-[#082A2E] text-white shadow-[0_12px_28px_rgba(8,42,46,0.24)]"
                   : pastHero
-                    ? "text-[var(--color-foreground)]/82 hover:bg-[#009EC8]/10 hover:text-[var(--color-foreground)]"
+                    ? "text-[var(--color-foreground)]/82 hover:bg-[#082A2E]/10 hover:text-[var(--color-foreground)]"
                     : "text-white/88 hover:bg-white/10 hover:text-white"
               }`}
             >
@@ -75,11 +74,11 @@ export default function Header() {
 
         <div className="hidden items-center justify-end gap-5 lg:flex">
           <a
-            href="https://wa.me/923214089006"
-            className="nav-label inline-flex h-9 items-center gap-2.5 rounded-full bg-primary-1 py-1 pl-4 pr-1 text-white shadow-[0_16px_34px_rgba(0,78,100,0.2)] transition hover:bg-[#007D9F]"
+            href="https://wa.me/923111133023"
+            className="nav-label inline-flex h-9 items-center gap-2.5 rounded-full bg-primary-1 py-1 pl-4 pr-1 text-white shadow-[0_16px_34px_rgba(8,42,46,0.24)] transition hover:bg-[#0E4A4F]"
           >
             Book Appointment
-            <span className="grid h-7 w-7 place-items-center rounded-full bg-white text-[#009EC8]">
+            <span className="grid h-7 w-7 place-items-center rounded-full bg-white text-[#082A2E]">
               <ArrowUpRight className="h-4 w-4" strokeWidth={2.4} />
             </span>
           </a>
@@ -98,16 +97,13 @@ export default function Header() {
           </SheetTrigger>
           <SheetContent className="border-zinc-900/18 bg-[var(--warm-cream)] p-5 text-[var(--color-foreground)] shadow-[0_20px_70px_rgba(24,24,27,0.18)]">
             <div className="flex items-center gap-3">
-              <span className="relative block h-14 w-20 overflow-hidden rounded-[8px] bg-black">
-                <Image src="/assets/logo.png" alt="Dermotique" fill sizes="80px" className="object-contain" />
-              </span>
-              <span className="heading-h3 uppercase tracking-[0.05em]">Dermotique</span>
+              <span className="brand-logo text-[#082A2E]">Estetica</span>
             </div>
 
             <nav className="mt-6 grid gap-2">
               {navItems.map((item) => (
                 <SheetClose asChild key={item.label}>
-                  <a href={item.href} className="para-p2 rounded-[8px] border border-transparent bg-white/64 px-4 py-3 transition hover:border-[#009EC8]/30 hover:text-[#007D9F]">
+                  <a href={item.href} className="para-p2 rounded-[8px] border border-transparent bg-white/64 px-4 py-3 transition hover:border-[#082A2E]/30 hover:text-[#0E4A4F]">
                     {item.label}
                   </a>
                 </SheetClose>
@@ -115,7 +111,7 @@ export default function Header() {
             </nav>
 
             <SheetClose asChild>
-              <a href="https://wa.me/923214089006" className="nav-label mt-6 flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#009EC8] px-5 text-white">
+              <a href="https://wa.me/923111133023" className="nav-label mt-6 flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#082A2E] px-5 text-white">
                 Book Appointment
                 <ArrowUpRight className="h-4 w-4" />
               </a>
