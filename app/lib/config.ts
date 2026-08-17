@@ -5,6 +5,7 @@ export const BASE_URL = "https://estetica-skin.vercel.app";
 const title = "Estetica Skin & Laser Gujranwala | Dermatologist & Aesthetic Clinic";
 const description =
   "Visit Estetica Skin & Laser in Satellite Town, Gujranwala for dermatologist-led skin, hair, laser, facial, and aesthetic treatments. Call or WhatsApp 0311 1133023.";
+const ogImage = "/assets/og-image.png";
 
 export const seoMetadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -59,10 +60,19 @@ export const seoMetadata: Metadata = {
     siteName: "Estetica Skin & Laser Gujranwala",
     title,
     description,
+    images: [
+      {
+        url: ogImage,
+        width: 1200,
+        height: 630,
+        alt: "Estetica Skin and Laser Gujranwala",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
+    images: [ogImage],
   },
 };
