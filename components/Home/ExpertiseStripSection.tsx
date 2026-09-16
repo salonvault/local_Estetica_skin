@@ -21,10 +21,10 @@ export default function ExpertiseStripSection() {
             for every stage of your skin.
           </h2>
           <p className="para-p3 mx-auto mt-4 max-w-[520px]">
-            From persistent acne and pigmentation to hair loss, laser care, and aesthetic concerns, every plan begins with a focused consultation at our Gujranwala clinic.
+            From persistent acne and pigmentation to hair loss, laser care, and aesthetic concerns, every plan begins with a focused consultation at our Lahore clinic.
           </p>
           <a
-            href="https://wa.me/923111133023"
+            href="https://wa.me/923100111156"
             className="mt-4 inline-flex min-h-10 items-center justify-center gap-2 rounded-full bg-[var(--color-primary-1)] py-1 pl-5 pr-1 text-[12px] font-bold text-white shadow-[0_14px_30px_rgba(8,42,46,0.24)] transition hover:bg-[var(--color-primary-2)]"
           >
             Book Appointment
@@ -34,7 +34,7 @@ export default function ExpertiseStripSection() {
           </a>
         </div>
 
-        <div className="relative mx-auto mt-6 max-w-[1040px] overflow-hidden rounded-[18px] border border-[#082A2E]/25 bg-white p-2 shadow-[0_24px_70px_rgba(24,24,27,0.12)]">
+        <div className="relative mx-auto mt-6 max-w-[1040px] overflow-hidden rounded-[18px] border border-[#003E6D]/25 bg-white p-2 shadow-[0_24px_70px_rgba(24,24,27,0.12)]">
           <ScrollZoom className="absolute inset-0" scale={1.185}>
             <Image
               src="/assets/bg-zink.png"
@@ -97,7 +97,7 @@ export default function ExpertiseStripSection() {
                 ))}
               </div>
               <span className="flex items-center gap-1 text-[11px] font-bold">
-                Gujranwala
+                Lahore
               </span>
             </div>
           </div>

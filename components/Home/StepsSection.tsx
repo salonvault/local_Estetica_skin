@@ -63,7 +63,7 @@ export default function StepsSection() {
                       {step.heading}
                     </h3>
                   </div>
-                  <span className="hidden font-heading text-[68px] font-semibold leading-none text-[#082A2E]/14 sm:block">
+                  <span className="hidden font-heading text-[68px] font-semibold leading-none text-[#003E6D]/14 sm:block">
                     {step.number}
                   </span>
                 </div>

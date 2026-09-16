@@ -134,7 +134,7 @@ export default function ServicesSection() {
             >
               <Image
                 src={service.image}
-                alt={`${service.title} at Estetica Skin and Laser Gujranwala`}
+                alt={`${service.title} at Estetica Skin and Laser Lahore`}
                 fill
                 sizes="(min-width: 1024px) 310px, 260px"
                 className="object-cover transition duration-500 group-hover:scale-105"
@@ -149,7 +149,7 @@ export default function ServicesSection() {
                 <p className="mt-3 max-w-[230px] text-[12px] font-medium leading-[1.55] text-white/76">
                   {service.text}
                 </p>
-                <a href="https://wa.me/923111133023" className="mt-5 inline-flex items-center gap-2 rounded-full border border-white/22 bg-white/10 px-3 py-2 text-[10px] font-bold uppercase text-white backdrop-blur transition hover:bg-[var(--color-primary-1)]">
+                <a href="https://wa.me/923100111156" className="mt-5 inline-flex items-center gap-2 rounded-full border border-white/22 bg-white/10 px-3 py-2 text-[10px] font-bold uppercase text-white backdrop-blur transition hover:bg-[var(--color-primary-1)]">
                   Book Now
                   <ArrowRight className="h-3 w-3" />
                 </a>

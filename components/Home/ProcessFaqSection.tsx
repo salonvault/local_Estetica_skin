@@ -20,7 +20,7 @@ const items = [
   {
     step: "4",
     title: "Where is Estetica located?",
-    text: "Estetica Gujranwala is at 22, Block A, Satellite Town. For directions or an appointment, call or WhatsApp 0311 1133023.",
+    text: "Estetica is at Gulshan-e-Ravi, Lahore. For directions or an appointment, call or WhatsApp +92 310 0111156.",
   },
 ];
 
@@ -42,7 +42,7 @@ export default function ProcessFaqSection() {
                 </h2>
               </Reveal>
               <a
-                href="https://wa.me/923111133023"
+                href="https://wa.me/923100111156"
                 className="mt-8 inline-flex min-h-11 items-center justify-center gap-2 rounded-[7px] bg-[var(--color-primary-1)] px-5 text-[13px] font-bold text-[var(--warm-cream)] transition hover:bg-[var(--color-primary-2)]"
               >
                 Book a Consultation

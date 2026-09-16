@@ -15,21 +15,21 @@ import WhatsAppFloat from "@/components/Layout/WhatsAppFloat"
 const clinicSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalClinic",
-  name: "Estetica Skin & Laser Gujranwala",
-  description: "Dermatologist-led skin, hair, laser, facial, and aesthetic treatments in Satellite Town, Gujranwala.",
+  name: "Estetica Skin & Laser Lahore",
+  description: "Dermatologist-led skin, hair, laser, facial, and aesthetic treatments in Gulshan-e-Ravi, Lahore.",
   image: "/assets/og-image.png",
-  telephone: "+92 311 1133023",
+  telephone: "+92 310 0111156",
   medicalSpecialty: "Dermatology",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "22, Block A, Satellite Town",
-    addressLocality: "Gujranwala",
+    streetAddress: "Gulshan-e-Ravi",
+    addressLocality: "Lahore",
     addressRegion: "Punjab",
     addressCountry: "PK",
   },
   sameAs: [
-    "https://www.instagram.com/estetica.pakistan_gujranwala/?hl=en",
-    "https://www.google.com/maps/place/Estetica+Skin+%26+Laser+Gujranwala/data=!4m2!3m1!1s0x0:0xc61cb9dd2020f450",
+    "https://www.instagram.com/estetica.pakistan_lahore/?hl=en",
+    "https://www.google.com/maps/search/?api=1&query=Gulshan-e-Ravi%20Lahore",
   ],
   availableService: [
     "Dermatology consultation",

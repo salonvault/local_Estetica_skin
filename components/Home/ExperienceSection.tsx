@@ -27,7 +27,7 @@ export default function ExperienceSection() {
       <div className="relative min-h-[540px] overflow-hidden bg-[#f7f1e9] lg:min-h-[520px]">
         <ScrollZoom className="absolute inset-0" scale={1.285}>
           <Image
-            src="/assets/bg_2.jpeg"
+            src="/assets/bg_3.png"
             alt="Patient with healthy-looking skin after dermatology care"
             fill
             quality={100}

@@ -2,36 +2,36 @@ import type { Metadata } from "next";
 
 export const BASE_URL = "https://estetica-skin.vercel.app";
 
-const title = "Estetica Skin & Laser Gujranwala | Dermatologist & Aesthetic Clinic";
+const title = "Estetica Skin & Laser Lahore | Dermatologist & Aesthetic Clinic";
 const description =
-  "Visit Estetica Skin & Laser in Satellite Town, Gujranwala for dermatologist-led skin, hair, laser, facial, and aesthetic treatments. Call or WhatsApp 0311 1133023.";
+  "Visit Estetica Skin & Laser in Gulshan-e-Ravi, Lahore for dermatologist-led skin, hair, laser, facial, and aesthetic treatments. Call or WhatsApp +92 310 0111156.";
 const ogImage = "/assets/og-image.png";
 
 export const seoMetadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
     default: title,
-    template: "%s | Estetica Skin & Laser Gujranwala",
+    template: "%s | Estetica Skin & Laser Lahore",
   },
   description,
-  applicationName: "Estetica Skin & Laser Gujranwala",
+  applicationName: "Estetica Skin & Laser Lahore",
   generator: "Next.js",
   referrer: "origin-when-cross-origin",
   category: "Dermatology Clinic",
   keywords: [
-    "Estetica Skin and Laser Gujranwala",
-    "Estetica Gujranwala",
-    "dermatologist Gujranwala",
-    "skin clinic Gujranwala",
-    "acne treatment Gujranwala",
-    "pigmentation treatment Gujranwala",
-    "laser hair removal Gujranwala",
-    "hair PRP Gujranwala",
-    "aesthetic clinic Gujranwala",
+    "Estetica Skin and Laser Lahore",
+    "Estetica Lahore",
+    "dermatologist Lahore",
+    "skin clinic Lahore",
+    "acne treatment Lahore",
+    "pigmentation treatment Lahore",
+    "laser hair removal Lahore",
+    "hair PRP Lahore",
+    "aesthetic clinic Lahore",
   ],
-  authors: [{ name: "Estetica Skin & Laser Gujranwala" }],
-  creator: "Estetica Skin & Laser Gujranwala",
-  publisher: "Estetica Skin & Laser Gujranwala",
+  authors: [{ name: "Estetica Skin & Laser Lahore" }],
+  creator: "Estetica Skin & Laser Lahore",
+  publisher: "Estetica Skin & Laser Lahore",
   alternates: {
     canonical: BASE_URL,
   },
@@ -57,7 +57,7 @@ export const seoMetadata: Metadata = {
     type: "website",
     locale: "en_PK",
     url: BASE_URL,
-    siteName: "Estetica Skin & Laser Gujranwala",
+    siteName: "Estetica Skin & Laser Lahore",
     title,
     description,
     images: [
@@ -65,7 +65,7 @@ export const seoMetadata: Metadata = {
         url: ogImage,
         width: 1200,
         height: 630,
-        alt: "Estetica Skin and Laser Gujranwala",
+        alt: "Estetica Skin and Laser Lahore",
       },
     ],
   },

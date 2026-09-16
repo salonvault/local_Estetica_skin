@@ -4,21 +4,21 @@ import Reveal from "./Reveal";
 const textReviews = [
   {
     name: "Sehrish",
-    service: "Full Body Laser · Gujranwala",
+    service: "Full Body Laser · Lahore",
     image: "/assets/new/person1.jpeg",
-    text: "A Gujranwala client shared that she was very satisfied with her laser session and praised the team member's kindness, professionalism, and attention to detail.",
+    text: "A Lahore client shared that she was very satisfied with her laser session and praised the team member's kindness, professionalism, and attention to detail.",
   },
   {
     name: "Google review highlight",
     service: "Professional Care",
     image: "/assets/new/person2.jpeg",
-    text: "Public feedback frequently mentions professional staff, satisfying treatment experiences, and attentive service at Estetica Gujranwala.",
+    text: "Public feedback frequently mentions professional staff, satisfying treatment experiences, and attentive service at Estetica Lahore.",
   },
   {
     name: "Google review highlight",
     service: "Laser Experience",
     image: "/assets/new/person4.jpeg",
-    text: "Laser sessions, staff support, and overall experience are among the most common themes in Estetica Gujranwala's public reviews.",
+    text: "Laser sessions, staff support, and overall experience are among the most common themes in Estetica Lahore's public reviews.",
   },
 ];
 
@@ -31,7 +31,7 @@ const imageCards = [
 
 function ReviewCard({ name, service, image, text }: { name: string; service: string; image: string; text: string }) {
   return (
-    <article className="rounded-[8px] border border-[#082A2E]/18 bg-[linear-gradient(135deg,#ffffff_0%,#f0f6f4_48%,#e5efed_100%)] p-5 shadow-[0_14px_34px_rgba(24,24,27,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_48px_rgba(24,24,27,0.14)]">
+    <article className="rounded-[8px] border border-[#003E6D]/18 bg-[linear-gradient(135deg,#ffffff_0%,#f4f9fd_48%,#eaf3fb_100%)] p-5 shadow-[0_14px_34px_rgba(24,24,27,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_48px_rgba(24,24,27,0.14)]">
       <div className="flex items-center gap-3">
         <div className="relative h-10 w-10 overflow-hidden rounded-full bg-[var(--color-primary-3)]">
           <Image src={image} alt="" fill sizes="40px" className="object-cover" />
@@ -68,7 +68,7 @@ export default function TestimonialsSection() {
           <div className="mt-3">
             <Reveal>
               <h2 className="heading-h2 mx-auto max-w-[660px]">
-                Trusted by Gujranwala clients seeking{" "}
+                Trusted by Lahore clients seeking{" "}
                 <span className="inline-block rounded-[7px] bg-[var(--color-primary-1)] px-2 text-white">
                   clearer guidance
                 </span>
@@ -78,7 +78,7 @@ export default function TestimonialsSection() {
             <p className="mx-auto mt-4 max-w-[580px] text-[12px] leading-[1.7] text-[var(--color-ink-2)]">
               See what clients say about Estetica&apos;s laser sessions, professional team, attentive service, and treatment experience, then open Google Maps for the latest first-hand feedback.
             </p>
-            <a href="https://www.google.com/maps/place/Estetica+Skin+%26+Laser+Gujranwala/data=!4m2!3m1!1s0x0:0xc61cb9dd2020f450" target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex rounded-full border border-[#082A2E]/30 bg-white px-5 py-2 text-[12px] font-bold text-[#0E4A4F] transition hover:bg-[#082A2E] hover:text-white">
+            <a href="https://www.google.com/maps/search/?api=1&query=Gulshan-e-Ravi%20Lahore" target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex rounded-full border border-[#003E6D]/30 bg-white px-5 py-2 text-[12px] font-bold text-[#0F5C8C] transition hover:bg-[#003E6D] hover:text-white">
               View Google reviews
             </a>
           </div>

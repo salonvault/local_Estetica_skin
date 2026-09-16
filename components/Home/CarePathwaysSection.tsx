@@ -38,7 +38,7 @@ export default function CarePathwaysSection() {
             for<br />Your Skin
             </h2>
             <p className="max-w-[390px] text-[13px] leading-[1.75] text-[var(--color-ink-2)] lg:justify-self-end lg:text-right">
-              Explore dermatologist-led treatments for acne, pigmentation, unwanted hair, hair loss, and aesthetic concerns—right here in Gujranwala.
+              Explore dermatologist-led treatments for acne, pigmentation, unwanted hair, hair loss, and aesthetic concerns—right here in Gulshan-e-Ravi, Lahore.
             </p>
           </div>
 
